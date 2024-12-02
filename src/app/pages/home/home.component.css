@@ -12,5 +12,9 @@
   app-big-card {
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid white;
+  }
+  .other-articles {
+    margin-top: 25px;
   }
 }
