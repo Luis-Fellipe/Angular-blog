@@ -27,3 +27,15 @@ a {
   color: gray;
   font-weight: 500;
 }
+
+@media screen and (max-width: 600px) {
+  .big-card-container {
+    margin-left: 0;
+    height: auto;
+    margin-bottom: 25px;
+    padding: 0 1rem;
+  }
+  .big-card-image img {
+    min-width: 200px;
+  }
+}

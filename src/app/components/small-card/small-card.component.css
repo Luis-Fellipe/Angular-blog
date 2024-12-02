@@ -22,3 +22,21 @@
 .small-card-container-separator {
   margin-top: 25px;
 }
+
+@media screen and (max-width: 600px) {
+  .small-card-container {
+    width: auto;
+  }
+  .small-card-content-container {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .small-card-image {
+    display: flex;
+    justify-content: center;
+  }
+  .small-card-container img {
+    width: 100%;
+    max-width: 418px;
+  }
+}
